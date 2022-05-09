@@ -1,7 +1,8 @@
 jQuery(function( $ ) {
 	'use strict';
 	$('#product__one, #product__two').selectize({
-		placeholder: "Select a product"
+		placeholder: " Select a hosting plan",
+		plugins: ["remove_button"],
 	});
 
 	var redirectUrl = "", productOne = "", productTwo = "";

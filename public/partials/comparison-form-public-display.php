@@ -30,7 +30,7 @@ if(!is_admin(  )){
     <div class="comparison__form_inputs">
         <div class="form__input">
             <select id="product__one">
-                <option value="">Select a product</option>
+                <option value=""> Select a hosting plan</option>
                 <?php
                 $options = $this->get_products();
                 if(sizeof($options) > 0){
@@ -42,11 +42,11 @@ if(!is_admin(  )){
             </select>
         </div>
 
-        <h1 class="inp_devider">VS</h1>
+        <h3 class="inp_devider">VS</h3>
 
         <div class="form__input">
             <select id="product__two">
-                <option value="">Select a product</option>
+                <option value=""> Select a hosting plan</option>
                 <?php
                 $options = $this->get_products();
                 if(sizeof($options) > 0){
